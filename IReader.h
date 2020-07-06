@@ -3,6 +3,7 @@
 
 #include "iostream"
 
+
 class IReader {
     virtual std::string read() const =0;
 };

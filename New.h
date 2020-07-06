@@ -3,6 +3,7 @@
 
 #include "createDNAseq.h"
 
+
 class New : public createDNAseq {
 public:
     void run(std::vector<std::string>);

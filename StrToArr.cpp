@@ -3,19 +3,19 @@
 #include "vector"
 
 
-std::vector<std::string> StrToArr::returnArr(std::string input) {
+std::vector<std::string> StrToArr::returnArr(const std::string& input) {
 
     std::vector<std::string> vecOfInput;
-    std::string word = "";
-    for (char i : input){
-        if (i == ' ')
-        {
+    std::string word;
+
+    for (size_t i=0 ; i< input.length() ; ++i){
+
+        if (input[i] == ' '){
             vecOfInput.push_back(word);
             word = "";
         }
-        else
-        {
-            word = word + i;
+        else{
+            word += input[i];
         }
     }
     vecOfInput.push_back(word);

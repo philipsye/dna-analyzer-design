@@ -1,6 +1,5 @@
 #ifndef DNA_SEQUENCE_COMMANDS_H
 #define DNA_SEQUENCE_COMMANDS_H
-
 #include "iostream"
 #include <vector>
 #include "ApplicationManager.h"
@@ -11,7 +10,7 @@ class commands {
 public:
     virtual void
     run(std::vector<std::string>)=0;
-    static size_t returnId();
+    static size_t returnId(){return ++m_id;}
 
 protected:
     static DNAlist dnAlist;

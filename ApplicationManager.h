@@ -7,8 +7,6 @@
 class ApplicationManager {
 public:
     static void runApplication();
-
-
 };
 
 

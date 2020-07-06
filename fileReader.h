@@ -3,11 +3,10 @@
 
 #include "Reader.h"
 
+
 class fileReader : Reader{
-
 public:
-    fileReader(const std::string& fName);
-
+    explicit fileReader(const std::string& fName);
     std::string read()const { return m_dna;}
 };
 

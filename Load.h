@@ -4,6 +4,7 @@
 
 #include "createDNAseq.h"
 
+
 class Load : public createDNAseq{
 public:
     void run(std::vector<std::string>);

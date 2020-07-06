@@ -10,7 +10,6 @@ public:
 
 protected:
     static size_t m_numDefaultNane;
-
 };
 
 

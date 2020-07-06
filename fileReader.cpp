@@ -1,6 +1,6 @@
-
 #include "fileReader.h"
 #include "fstream"
+
 
 fileReader::fileReader(const std::string& fName) {
     std::ifstream dnaFile;
@@ -12,6 +12,6 @@ fileReader::fileReader(const std::string& fName) {
     }
 
     else{
-        std::cout << "File opening error. " << std::endl;
+        std::cout << "File opening error." << std::endl;
     }
 }

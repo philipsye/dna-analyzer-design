@@ -3,11 +3,11 @@
 
 #include "Reader.h"
 
+
 class KBoardReader : public Reader {
 public:
     KBoardReader();
     std::string read()const { return m_dna;}
-
 };
 
 

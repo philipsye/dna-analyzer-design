@@ -1,9 +1,6 @@
-  //
-// Created by a on 7/5/20.
-//
-
 #include "Load.h"
 #include "fileReader.h"
+
 
 void Load::run(std::vector<std::string> input) {
     std::cout<<"1\n";
@@ -23,19 +20,10 @@ void Load::run(std::vector<std::string> input) {
         dna2+=dna[len-3];
         dna2+=dna[len-2];
         dna2+=dna[len-1];
-
         dna=dna2;
     }
-
-    std::cout<<"5\n";
-std::cout<<dna<<"\n";
-    std::cout<<"6\n";
     DNA* newDn = new DNA(DnaSequence(dna), input[1], commands::returnId());
-    std::cout<<"7\n";
-
-
     newDn->getId();
     dnAlist.addToList(newDn);
-    std::cout<<"8\n";
     dnAlist.printSingleDna(dnAlist.sizeList());
 }

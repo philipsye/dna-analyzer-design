@@ -2,6 +2,7 @@
 #include <string>
 #include <sstream>
 
+
 size_t createDNAseq::m_numDefaultNane = 0;
 
 

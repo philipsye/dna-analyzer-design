@@ -4,9 +4,10 @@
 #include "vector"
 #include <string>
 
+
 class StrToArr {
 public:
-    static std::vector<std::string> returnArr(std::string);
+    static std::vector<std::string> returnArr(const std::string&);
 };
 
 
