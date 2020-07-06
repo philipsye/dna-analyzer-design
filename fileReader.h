@@ -6,7 +6,7 @@
 class fileReader : Reader{
 
 public:
-    fileReader(std::string fName);
+    fileReader(const std::string& fName);
 
     std::string read()const { return m_dna;}
 };

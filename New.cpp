@@ -1,10 +1,9 @@
-
 #include "New.h"
 #include "DNA.h"
 
 
-
 void New::run(std::vector<std::string> input) {
+
 
     if (input.size() < 3) {
         input.push_back(createDNAseq::getNum());
@@ -15,8 +14,10 @@ void New::run(std::vector<std::string> input) {
         input[2] = temp+1;
     }
 
-    DNA newDna(DnaSequence(input[1]), input[2], commands::returnId());
-    dnAlist.addToList(newDna);
+    DNA* newDn = new DNA(DnaSequence(input[1]), input[2], commands::returnId());
+    dnAlist.addToList(newDn);
 
-    dnAlist.printOneDna(dnAlist.sizeList());
+    dnAlist.printSingleDna(dnAlist.sizeList());
 }
+
+

@@ -6,15 +6,17 @@
 #include "New.h"
 #include "Load.h"
 
-commands* CommandFactory::returnCommand(const std::string& command) {
+commands* CommandFactory::returnCommand(const std::string& c) {
 
-    if(command == "new"){
+    if(c == "new"){
+
         commands* command = new New ;
+
         return command;
     }
 
 
-    if(command == "load"){
+    if(c == "load"){
         commands* command = new Load ;
         return command;
     }

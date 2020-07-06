@@ -8,12 +8,16 @@
 
 void ApplicationManager::runApplication() {
 
-    std::string a;
-    while (a!="1"){
-        std::cout<<">cmd>>> ";
-        std::getline(std::cin, a);
-        std::vector<std::string> v = StrToArr::returnArr(a);
+
+    while (true){
+        std::string a;
+        std::string s;
+
+        std::cout << "> cmd >>> ";
+        getline(std::cin, s);
+        std::vector<std::string> v = StrToArr::returnArr(s);
         commands* command = CommandFactory::returnCommand(v[0]);
         command->run(v);
+        break;
     }
 }

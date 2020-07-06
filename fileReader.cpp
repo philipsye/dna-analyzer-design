@@ -2,7 +2,7 @@
 #include "fileReader.h"
 #include "fstream"
 
-fileReader::fileReader(std::string fName) {
+fileReader::fileReader(const std::string& fName) {
     std::ifstream dnaFile;
     dnaFile.open(fName.c_str(),std::ios::in);
 

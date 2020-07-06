@@ -1,6 +1,6 @@
 #include "DNA.h"
 
-DNA::DNA(const DnaSequence& seq, const std::string& name, size_t id):m_seq(seq), m_name(name), m_id(id) {}
+DNA::DNA(const DnaSequence& seq, const std::string& name, size_t id):m_seq(seq), m_name(name), m_id(id), m_status(E_New) {}
 
 
 void DNA::setSeq(const DnaSequence& seq) {
