@@ -11,6 +11,7 @@ public:
     void addToList(DNA* dna);
     void printSingleDna(size_t index);
     size_t sizeList(){ return m_hashWithName.size();}
+    bool existing(const std::string&);
 
 private:
     std::map<std::string , DNA*> m_hashWithName;

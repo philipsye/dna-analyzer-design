@@ -2,6 +2,5 @@
 
 
 KBoardReader::KBoardReader() {
-    std::cout<< "Please enter DNA: ";
-    std::cin>> m_dna;
+    getline(std::cin, m_dna);
 }

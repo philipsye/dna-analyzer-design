@@ -2,21 +2,23 @@
 #include "ApplicationManager.h"
 #include "StrToArr.h"
 #include "CommandFactory.h"
+#include "KBoardReader.h"
+#include "KBoardWriter.h"
 
 
 void ApplicationManager::runApplication() {
+    KBoardWriter message;
+    message.write("Enter execution orders for the DNA system\nTap quit to exit the application\n");
 
-    std::cout<<"Enter execution orders for the DNA system\n"
-               "Tap quit to exit the application";
     while (true){
-        std::string s;
-        std::cout << "> cmd >>> ";
-        getline(std::cin, s);
+        KBoardWriter w;
+        w.write("> cmd >>> ");
+        KBoardReader k;
 
-        if(s == "quit"){
+        if(k.read() == "quit"){
             break;
         }
-        std::vector<std::string> v = StrToArr::returnArr(s);
+        std::vector<std::string> v = StrToArr::returnArr(k.read());
         commands* command = CommandFactory::returnCommand(v[0]);
         command->run(v);
     }

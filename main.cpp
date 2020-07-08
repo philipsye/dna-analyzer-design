@@ -24,7 +24,7 @@ int main() {
     testPairing();
     testFindConsensusSequences();
 */
-std::cout<<"hello\n";
+
 ApplicationManager::runApplication();
     return 0;
 }

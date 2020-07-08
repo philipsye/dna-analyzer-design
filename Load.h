@@ -8,6 +8,7 @@
 class Load : public createDNAseq{
 public:
     void run(std::vector<std::string>);
+    void print(const std::string& seq, const std::string& name, size_t id, size_t len);
 };
 
 

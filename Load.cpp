@@ -3,27 +3,48 @@
 
 
 void Load::run(std::vector<std::string> input) {
-    std::cout<<"1\n";
+
     fileReader f(input[1]);
-    std::cout<<"2\n";
     std::string dna = f.read();
-    std::cout<<"3\n";
     size_t len = dna.length();
-    std::cout<<"4\n";
+
+    if (input.size() < 3) {
+
+        if ( (dnAlist.existing(input[1]))) {
+            input.push_back(createDNAseq::getNum());
+        }
+
+        else{
+            input.push_back(input[1]);
+        }
+    }
+
+    else{
+        const char* temp = input[2].c_str();
+        input[2] = temp+1;
+    }
+    DNA* newDn = new DNA(DnaSequence(dna), input[2], commands::returnId());
+    dnAlist.addToList(newDn);
+    print(newDn->getSeq().getPackedSequence(), input[2], newDn->getId(), len);
+}
+
+
+void Load::print(const std::string& seq, const std::string& name, size_t id, size_t len) {
+    std::cout<<"["<<id<<"] ";
+    std::cout<<name<<" ";
+
+    std::string s = seq;
+
     if(len > 40){
         std::string dna2;
-        dna2="";
         for (short i=0 ; i<32 ; i++){
-            dna2+=dna[i];
+            dna2+=s[i];
         }
-        /*dna2+="...";*/
-        dna2+=dna[len-3];
-        dna2+=dna[len-2];
-        dna2+=dna[len-1];
-        dna=dna2;
+        dna2+="...";
+        dna2+=s[len-3];
+        dna2+=s[len-2];
+        dna2+=s[len-1];
+        s=dna2;
+        std::cout<<s<<std::endl;
     }
-    DNA* newDn = new DNA(DnaSequence(dna), input[1], commands::returnId());
-    newDn->getId();
-    dnAlist.addToList(newDn);
-    dnAlist.printSingleDna(dnAlist.sizeList());
 }
