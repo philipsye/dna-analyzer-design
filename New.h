@@ -6,7 +6,11 @@
 
 class New : public createDNAseq {
 public:
+    bool isValid(std::vector<std::string> input);
     void run(std::vector<std::string>);
+
+private:
+    static bool isValidDna(const std::string&);
 };
 
 
