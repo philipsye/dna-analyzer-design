@@ -17,3 +17,4 @@ void DNAlist::printSingleDna(size_t index) {
 bool DNAlist::existing(const std::string& s) {
     return !(m_hashWithName.find(s) == m_hashWithName.end());
 }
+

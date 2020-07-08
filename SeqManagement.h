@@ -7,7 +7,7 @@
 
 #include "commands.h"
 
-class SeqManagement : commands {
+class SeqManagement : public commands {
 
 };
 

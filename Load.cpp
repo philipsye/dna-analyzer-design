@@ -47,4 +47,8 @@ void Load::print(const std::string& seq, const std::string& name, size_t id, siz
         s=dna2;
         std::cout<<s<<std::endl;
     }
+
+    else{
+        std::cout<<seq<<std::endl;
+    }
 }

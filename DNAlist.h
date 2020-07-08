@@ -12,6 +12,9 @@ public:
     void printSingleDna(size_t index);
     size_t sizeList(){ return m_hashWithName.size();}
     bool existing(const std::string&);
+    std::string getSeqWithName(const std::string& name){return m_hashWithName[name]->getSeq().getPackedSequence();}
+    std::string getSeqWithId(size_t id){return getSeqWithName(m_hashWithId[id]);}
+    std::string getNameById(size_t id){return m_hashWithId[id];}
 
 private:
     std::map<std::string , DNA*> m_hashWithName;
