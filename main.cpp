@@ -1,30 +1,8 @@
-#include <iostream>
-#include "DnaSequence.h"
-#include "test.h"
-#include "ApplicationManager.h"
-#include "fileReader.h"
+#include "SRC/manager/ApplicationManager.h"
 #pragma warning (disable : Wconversion)
 
 
 int main() {
-/*
-    testOperatorEqual();
-    testGetDnaBits();
-    testGetPackedSequence();
-    testGetLenDnaBits();
-    testOperatorIndex();
-    testSetNucleotide();
-    testSlicing();
-    testFind();
-    testFindAll();
-    testCount();
-    testOperatorEqualEqual();
-    testOperatorNotEqual();
-    testLengthDna();
-    testPairing();
-    testFindConsensusSequences();
-*/
-
-ApplicationManager::runApplication();
+    ApplicationManager::runApplication();
     return 0;
 }

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DNA_Sequence"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/a/Desktop/DNA_Sequence/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j3 -f &quot;/home/a/Desktop/DNA_Sequence/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j3 -f &quot;/home/a/Desktop/DNA_Sequence/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j3 -f &quot;/home/a/Desktop/DNA_Sequence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j3 -f &quot;/home/a/Desktop/DNA_Sequence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/a/Desktop/DNA_Sequence/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j3 -f &quot;/home/a/Desktop/DNA_Sequence/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j3 -f &quot;/home/a/Desktop/DNA_Sequence/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j3 -f &quot;/home/a/Desktop/DNA_Sequence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j3 -f &quot;/home/a/Desktop/DNA_Sequence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DNA_Sequence">
+				<Option output="/home/a/Desktop/DNA_Sequence/cmake-build-debug/DNA_Sequence" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/a/Desktop/DNA_Sequence/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j3 -f &quot;/home/a/Desktop/DNA_Sequence/cmake-build-debug/Makefile&quot;  VERBOSE=1 DNA_Sequence"/>
+					<CompileFile command="/usr/bin/make -j3 -f &quot;/home/a/Desktop/DNA_Sequence/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j3 -f &quot;/home/a/Desktop/DNA_Sequence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j3 -f &quot;/home/a/Desktop/DNA_Sequence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DNA_Sequence/fast">
+				<Option output="/home/a/Desktop/DNA_Sequence/cmake-build-debug/DNA_Sequence" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/a/Desktop/DNA_Sequence/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j3 -f &quot;/home/a/Desktop/DNA_Sequence/cmake-build-debug/Makefile&quot;  VERBOSE=1 DNA_Sequence/fast"/>
+					<CompileFile command="/usr/bin/make -j3 -f &quot;/home/a/Desktop/DNA_Sequence/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j3 -f &quot;/home/a/Desktop/DNA_Sequence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j3 -f &quot;/home/a/Desktop/DNA_Sequence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/a/Desktop/DNA_Sequence/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j3 -f &quot;/home/a/Desktop/DNA_Sequence/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j3 -f &quot;/home/a/Desktop/DNA_Sequence/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j3 -f &quot;/home/a/Desktop/DNA_Sequence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j3 -f &quot;/home/a/Desktop/DNA_Sequence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/DNA/DNA.cpp">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/DNA/DNA.h">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/DNA/DNAcreateBits.cpp">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/DNA/DNAcreateBits.h">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/DNA/DNAlist.cpp">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/DNA/DNAlist.h">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/DNA/DnaSequence.cpp">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/DNA/DnaSequence.h">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/DNA/PrintDna.cpp">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/DNA/PrintDna.h">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/DNA/StrToArr.cpp">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/DNA/StrToArr.h">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/DNA/createDNAseq.cpp">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/DNA/createDNAseq.h">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/DNA/test.cpp">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/DNA/test.h">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/commands/CommandFactory.cpp">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/commands/CommandFactory.h">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/commands/Dup.cpp">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/commands/Dup.h">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/commands/Load.cpp">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/commands/Load.h">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/commands/New.cpp">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/commands/New.h">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/commands/Save.cpp">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/commands/Save.h">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/commands/commands.cpp">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/commands/commands.h">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/manager/ApplicationManager.cpp">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/manager/ApplicationManager.h">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/manager/SeqManagement.cpp">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/manager/SeqManagement.h">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/manager/Terminal.cpp">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/manager/Terminal.h">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/read/IReader.cpp">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/read/IReader.h">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/read/KBoardReader.cpp">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/read/KBoardReader.h">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/read/Reader.cpp">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/read/Reader.h">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/read/fileReader.cpp">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/read/fileReader.h">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/write/FileWriter.cpp">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/write/FileWriter.h">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/write/KBoardWriter.cpp">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/SRC/write/KBoardWriter.h">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/main.cpp">
+			<Option target="DNA_Sequence"/>
+		</Unit>
+		<Unit filename="/home/a/Desktop/DNA_Sequence/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.15)
+project(DNA_Sequence)
+
+set(CMAKE_CXX_STANDARD 98)
+
+add_executable(DNA_Sequence main.cpp SRC/DNA/DnaSequence.cpp SRC/DNA/DnaSequence.h SRC/DNA/PrintDna.cpp SRC/DNA/PrintDna.h SRC/DNA/DNAcreateBits.cpp SRC/DNA/DNAcreateBits.h SRC/DNA/test.cpp SRC/DNA/test.h SRC/read/Reader.cpp SRC/read/Reader.h SRC/commands/commands.cpp SRC/commands/commands.h SRC/DNA/createDNAseq.cpp SRC/DNA/createDNAseq.h SRC/commands/New.cpp SRC/commands/New.h SRC/manager/ApplicationManager.cpp SRC/manager/ApplicationManager.h SRC/commands/CommandFactory.cpp SRC/commands/CommandFactory.h SRC/DNA/StrToArr.cpp SRC/DNA/StrToArr.h SRC/DNA/DNAlist.cpp SRC/DNA/DNAlist.h SRC/DNA/DNA.cpp SRC/DNA/DNA.h SRC/commands/Load.cpp SRC/commands/Load.h SRC/read/IReader.cpp SRC/read/IReader.h SRC/read/KBoardReader.cpp SRC/read/KBoardReader.h SRC/read/fileReader.cpp SRC/read/fileReader.h SRC/write/KBoardWriter.cpp SRC/write/KBoardWriter.h SRC/commands/Save.cpp SRC/commands/Save.h SRC/manager/SeqManagement.cpp SRC/manager/SeqManagement.h SRC/write/FileWriter.cpp SRC/write/FileWriter.h SRC/commands/Dup.cpp SRC/commands/Dup.h SRC/manager/Terminal.cpp SRC/manager/Terminal.h)
